@@ -13,7 +13,7 @@ var gutil = require('gulp-util');
 var path = require('path');
 var PluginError = gutil.PluginError;
 var File = gutil.File;
-var Convert = require('./convert');
+var Convert = require('./convert-wp-to-md');
 
 //consts
 const PLUGIN_NAME = 'gulp-wp-to-md';

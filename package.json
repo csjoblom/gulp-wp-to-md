@@ -1,6 +1,6 @@
 {
   "name": "gulp-wp-to-md",
-: "version": "1.0.0",
+  "version": "1.0.0",
   "description": "WordPress Readme.txt to Readme.MD converter",
   "main": "index.js",
   "scripts": {
@@ -8,11 +8,17 @@
   },
   "keywords": [
     "wordpress",
+    "gulpplugin",
     "gulp",
     "readme",
     "markdown",
     "conversion"
   ],
   "author": "Chris Sjoblom",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "gulp-util": "^3.0.7",
+    "path": "^0.12.7",
+    "through2": "^2.0.0"
+  }
 }

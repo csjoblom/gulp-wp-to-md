@@ -37,6 +37,8 @@ gulp.task('readme', function() {
     .pipe(gulp.dest('./README.md'));
 });
 
+```
+
 ## LICENSE
 
 (MIT License)

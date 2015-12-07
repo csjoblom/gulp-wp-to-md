@@ -1,0 +1,18 @@
+{
+  "name": "gulp-wp-to-md",
+: "version": "1.0.0",
+  "description": "WordPress Readme.txt to Readme.MD converter",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "wordpress",
+    "gulp",
+    "readme",
+    "markdown",
+    "conversion"
+  ],
+  "author": "Chris Sjoblom",
+  "license": "MIT"
+}
